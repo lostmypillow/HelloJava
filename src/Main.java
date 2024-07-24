@@ -17,6 +17,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         String name = scanner.nextLine();
+        
         System.out.println("Hello " + name);
         System.out.println("enter a number");
         int age = scanner.nextInt();
@@ -39,6 +40,7 @@ public class Main {
 
         // Print the message written by the user
         System.out.println(message);
+        
 
 
         String text = "contains text";
@@ -75,6 +77,8 @@ public class Main {
         System.out.println("Write a boolean ");
 //        boolean value = Boolean.valueOf(scanner.nextLine());
         boolean value = Boolean.parseBoolean(scanner.nextLine());
+        scanner.close();
         System.out.println("You wrote " + value);
+        
     }
 }

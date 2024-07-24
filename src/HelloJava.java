@@ -15,6 +15,7 @@ public class HelloJava {
         String message = scanner.nextLine();
         System.out.println("u wrote " + message);
         String next_message = scanner.nextLine();
+        scanner.close();
         System.out.println("well well " + next_message);
         int value = 10;
         System.out.println(value);
