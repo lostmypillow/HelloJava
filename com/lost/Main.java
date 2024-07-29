@@ -1,3 +1,4 @@
+package lost;
 import java.util.Scanner;
 
 public class Main {
