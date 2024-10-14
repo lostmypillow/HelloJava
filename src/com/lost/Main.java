@@ -1,4 +1,4 @@
-package lost;
+package com.lost;
 import java.util.Scanner;
 
 public class Main {

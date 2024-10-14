@@ -1,4 +1,4 @@
-package lost;
+package com.lost;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,7 +13,8 @@ public class Nutshell {
         // int literal 0 boxed to an Integer object
         Number n = 0.0f;
         System.out.println(n);
-        // float literal boxed to Float and widened to Number        int j = i;
+        // float literal boxed to Float and widened to Number
+        int j = i;
         System.out.println(j);
         // i is unboxed here
         i++;
@@ -35,7 +36,7 @@ public class Nutshell {
 
         // Box int to Integer
 
-        int i = numbers.get(0);
+//        int i = numbers.get(0);
 
         // Unbox Integer to int
     }

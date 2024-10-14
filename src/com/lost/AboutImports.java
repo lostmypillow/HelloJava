@@ -1,4 +1,4 @@
-package lost;
+package com.lost;
 import static java.lang.System.out;
 
 public class AboutImports {

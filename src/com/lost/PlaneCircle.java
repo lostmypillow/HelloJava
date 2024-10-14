@@ -1,4 +1,4 @@
-package lost;
+package com.lost;
 public class PlaneCircle extends Circle {
 
     // We automatically inherit the fields and methods of Circle,

@@ -1,4 +1,4 @@
-package lost;
+package com.lost;
 public record Point
 (
     double x ,

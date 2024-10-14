@@ -1,4 +1,4 @@
-package lost;
+package com.lost;
 
 public class Circle {
     // A class field
